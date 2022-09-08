@@ -1,0 +1,7 @@
+site_name: Code Aid
+sire_url: https://rami-quest.github.io/code-aid
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme: readthedocs
