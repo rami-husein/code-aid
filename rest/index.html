@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
-        <link rel="canonical" href="https://rami-quest.github.io/code-aid/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Code Aid</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="canonical" href="https://rami-quest.github.io/code-aid/rest/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>REST - Code Aid</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atelier-cave-light.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Code Aid</a>
+                <a class="navbar-brand" href="..">Code Aid</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,66 +33,66 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="navitem">
-                                <a href="mission/" class="nav-link">Mission</a>
+                                <a href="../mission/" class="nav-link">Mission</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="start/" class="dropdown-item">Start Here</a>
+    <a href="../start/" class="dropdown-item">Start Here</a>
 </li>
                                     
 <li>
-    <a href="core/" class="dropdown-item">Core CS Concepts</a>
+    <a href="../core/" class="dropdown-item">Core CS Concepts</a>
 </li>
                                     
 <li>
-    <a href="terminal/" class="dropdown-item">The Terminal</a>
+    <a href="../terminal/" class="dropdown-item">The Terminal</a>
 </li>
                                     
 <li>
-    <a href="languages/" class="dropdown-item">Languages</a>
+    <a href="../languages/" class="dropdown-item">Languages</a>
 </li>
                                     
 <li>
-    <a href="data-types/" class="dropdown-item">Data Types</a>
+    <a href="../data-types/" class="dropdown-item">Data Types</a>
 </li>
                                     
 <li>
-    <a href="data-structures/" class="dropdown-item">Data Structures</a>
+    <a href="../data-structures/" class="dropdown-item">Data Structures</a>
 </li>
                                     
 <li>
-    <a href="algorithms/" class="dropdown-item">Algorithms</a>
+    <a href="../algorithms/" class="dropdown-item">Algorithms</a>
 </li>
                                     
 <li>
-    <a href="internet/" class="dropdown-item">The Internet</a>
+    <a href="../internet/" class="dropdown-item">The Internet</a>
 </li>
                                     
 <li>
-    <a href="rest/" class="dropdown-item">REST</a>
+    <a href="./" class="dropdown-item active">REST</a>
 </li>
                                     
 <li>
-    <a href="version-control/" class="dropdown-item">Version Control</a>
+    <a href="../version-control/" class="dropdown-item">Version Control</a>
 </li>
                                     
 <li>
-    <a href="ci-cd/" class="dropdown-item">CI/CD</a>
+    <a href="../ci-cd/" class="dropdown-item">CI/CD</a>
 </li>
                                     
 <li>
-    <a href="terminology/" class="dropdown-item">Terminology</a>
+    <a href="../terminology/" class="dropdown-item">Terminology</a>
 </li>
                                     
 <li>
-    <a href="careers/" class="dropdown-item">Career Paths</a>
+    <a href="../careers/" class="dropdown-item">Career Paths</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -100,14 +100,14 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="example-rest/" class="dropdown-item">REST API</a>
+    <a href="../example-rest/" class="dropdown-item">REST API</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="faq/" class="nav-link">FAQ</a>
+                                <a href="../faq/" class="nav-link">FAQ</a>
                             </li>
                         </ul>
 
@@ -118,12 +118,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../internet/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="mission/" class="nav-link">
+                                <a rel="next" href="../version-control/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -144,19 +144,12 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#welcome-to-code-aid" class="nav-link">Welcome to Code Aid</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-code-aid">Welcome to Code Aid</h1>
-<p>Your personal coding tutor.</p>
-<p>To begin, click on a category above, and select a topic you want to learn.</p></div>
+</div>
             </div>
         </div>
 
@@ -165,11 +158,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -234,8 +227,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.3.1
-Build Date UTC : 2022-09-08 18:19:07.825545+00:00
--->
